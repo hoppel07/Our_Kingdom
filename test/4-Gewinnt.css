@@ -1,0 +1,46 @@
+#Spielfeld>.table>.Spalte>.td>.Kreis {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    float: left;
+    border-radius: 50px;
+    margin: 8px;
+    border: 2px solid black;
+}
+
+#Spielfeld {
+    width: 701px;
+    height: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsla(41, 100%, 51%, 0.80);
+    border: 4px solid black;
+    border-radius: 50px;
+    z-index: 2;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(221, 128, 7);
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#restartButton {
+    background-color: snow;
+    border-radius: 20px;
+}
+
+#Spielfeld>.Spalte>.Kreis:hover {
+    background-color: hsla(41, 44%, 34%, 0.8);
+}
+
+#Spielfeld>.table>.td>.Spalte {
+    width: 100px;
+    height: 600px;
+}
